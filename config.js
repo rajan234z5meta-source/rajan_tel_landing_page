@@ -11,7 +11,7 @@ window.LANDING_CONFIG = {
   advertisingEmail: 'contact@kalam.trade', // Public advertising contact email
 
   // Meta Pixel: keep the ID in quotes. Use '' to disable all Pixel tracking.
-  metaPixelId: '1411019554494516',
+  metaPixelId: '1116503744429301',
 
   // Browser title and search/social description. Blank values use channel details.
   pageTitle: '',
