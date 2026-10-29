@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1210">
+    <meta name="description" content="Telegram channel">
+    <title>Telegram channel</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Client details and Meta Pixel settings live in config.js. Order matters. -->
+    <script src="./config.js" defer></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <noscript>
+      <p>Please enable JavaScript to view this channel's details and join link.</p>
+    </noscript>
+
+    <div class="page-shell">
+      <main class="main-content">
+        <div class="content-group">
+          <div class="telegram-backdrop" aria-hidden="true">
+            <svg viewBox="1.5 1.5 21 21" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="0.06" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+              <path d="m22 2-7 20-4-9-9-4 20-7Z"></path>
+              <path d="M22 2 11 13"></path>
+            </svg>
+          </div>
+          <header class="page-intro">
+            <div class="page-intro-copy">
+              <h1 id="page-heading"></h1>
+              <p id="page-subtitle"></p>
+            </div>
+          </header>
+          <section class="join-card" aria-labelledby="join-title">
+            <span class="corner-tag">
+              <img class="tag-art" src="./assets/hanging-tag-blank.webp" width="320" height="320" alt="" decoding="async" fetchpriority="low">
+              <span class="tag-copy"><span id="badge-line-1"></span><span id="badge-line-2"></span></span>
+            </span>
+            <div class="join-avatar" id="join-avatar" aria-hidden="true"></div>
+            <p class="join-kicker" id="channel-label"></p>
+            <h2 id="join-title">Telegram channel</h2>
+            <p class="description" id="channel-description"></p>
+            <p class="member-count">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              <strong id="active-users"></strong> <span id="member-label"></span>
+            </p>
+            <a class="primary-cta" id="telegram-link" aria-disabled="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="m22 2-7 20-4-9-9-4 20-7Z"></path>
+                <path d="M22 2 11 13"></path>
+              </svg>
+              <span id="button-text"></span>
+            </a>
+          </section>
+
+          <section class="advertising-contact" id="advertising-contact" aria-label="Advertising contact" hidden>
+            <p class="advertising-credit">Managed by <strong id="advertising-manager"></strong></p>
+            <p class="advertising-email">Email: <strong id="advertising-email"></strong></p>
+          </section>
+
+          <section class="disclaimer" aria-label="Disclaimer">
+            <p id="disclaimer-text"></p>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
